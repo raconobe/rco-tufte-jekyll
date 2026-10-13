@@ -1,4 +1,6 @@
-baseurl: /tufte-jekyll
+url: "https://raconobe-rco-tufte-jekyll.vercel.app"
+baseurl: "" 
+
 title: Tufte-Jekyll
 subtitle: Content-centric blogging
 author: clay harmon
@@ -9,7 +11,7 @@ markdown: kramdown
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 permalink: /articles/:short_year/:title
 timezone: America/New_York
-excerpt_separator: <!--more-->  # you can specify your own separator, of course.
+excerpt_separator: <!--more-->
 exclude: ['Gemfile', 'Gemfile.lock', 'Rakefile', 'UploadToGithub.Rakefile', 'README.md']
 post:
   template: _post.txt
